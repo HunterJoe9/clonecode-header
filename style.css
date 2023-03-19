@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.ellipsis {
+  width: 24px;
+  margin-left: 40px;
+}
+.alarm {
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+  background-color: rgb(2, 4, 63);
+  display: flex;
+  justify-content: center;
+}
+.mark {
+  padding-left: 5px;
+  font-weight: bold;
+  color: rgb(0, 140, 254);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+button {
+  font-size: 14.4px;
+  font-weight: lighter;
+  border: none;
+  background-color: white;
+  color: #31394c;
+  padding: 0px 30px;
+  display: none;
+}
+
+img {
+  width: 160px;
+  height: 50px;
+}
+
+@media (min-width: 1024px) {
+  button {
+    display: inline-block;
+  }
+
+  .ellipsis {
+    display: none;
+  }
+}
